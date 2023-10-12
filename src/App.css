@@ -1,3 +1,7 @@
+*{
+  font-family: Spartan;
+  font-style: normal;
+}
 /* Header.css */
 .container {
   display: flex;
@@ -23,64 +27,53 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
 /* Footer CSS */
 .ft {
   padding: 20px 0;
 }
-
 .col {
-  width: 25%;
-  float: left;
-  padding: 0 20px;
-  box-sizing: border-box;
+  width: calc(25% - 20px);
+  /* margin: 0 10px; */
+  text-align: left;
 }
-
+.ft {
+  padding: 20px;
+}
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 ul li {
   margin-bottom: 10px;
 }
-
 .ft.tag {
   text-align: center;
 }
-
 .connect.icons img {
   margin-right: 20px;
 }
-
-.ft .col ul h3 {
+.ft .col ul p {
   margin-bottom: 50px;
 }
-
 li.get.direction {
   margin-top: 20px;
 }
-
 .ft .col ul li img {
-  width: 13px;
-  height: 10px;
-  margin-right: 5px;
+  /* width: 13px; */
+  /* height: 10px; */
+  margin-right: 15px;
 }
-
 .ft .col ul li.get-direction {
   margin-top: 20px;
 }
-
 .col.ft2 {
   width: auto;
 }
-
-.col.ft1 {
-  padding-left: 100px;
+.underline {
+  text-decoration: underline;
 }
-
-.ft .col ul li h3 {
+.ft .col ul li p {
   margin-bottom: 0;
 }
 .footer {
@@ -89,41 +82,94 @@ li.get.direction {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  color: var(--cool-gray-9021272-a, #21272A);
+  font-family: Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43.2px
 }
-
+.col.ft3 ul address {
+  font-family: Spartan;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+line-height: 26px;
+  margin: 0;
+}
 .ft.info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .col {
   width: calc(25% - 20px);
   margin: 0 10px;
   text-align: left;
-
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-
   ul li {
     margin-bottom: 10px;
   }
-
   .connect.icons img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
-
   img {
     max-width: 100%;
     height: auto;
   }
 }
-
 .copyright {
   margin-top: 20px;
+}
+/* Hero page Css */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+section > div {
+  flex: 1;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #666;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+ul>p {
+  font-size: 20px;
+}
+.connect{
+  text-decoration: none !important;
+
 }

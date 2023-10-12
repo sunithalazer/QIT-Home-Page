@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
+// import Header from './components/Header';
+// import Footer from './components/Footer';
+// import Hero from './components/Hero';
+import Parterners from './components/Parterners';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Footer/>
+      <Parterners/>
+      {/* <Header/>
+      <Hero/>
+      
+      <Footer/> */}
     </div>
   );
 }
