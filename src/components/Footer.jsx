@@ -1,4 +1,9 @@
-import React from 'react'
+import React from 'react';
+import facebook from '../asset/image/facebook.png';
+import linkdin from '../asset/image/linkdin.png';
+import youtube from '../asset/image/youtube.png';
+import post from '../asset/image/post.jpg';
+import location from '../asset/image/location.jpg';
 
 function Footer() {
   return (
@@ -7,9 +12,15 @@ function Footer() {
             <div className='col ft1'>
                 <ul>
                     <h3>Connect with Us</h3>
-                    <li>Get direction of office </li>
-                    <li> hr@qitsolution.co.in</li>
-                    <li> keyur@qitsolution.co.in</li>
+                    <div className='connect icons'>
+                        <img src={ facebook } alt="facebook" />
+                        <img src={ linkdin }  alt= "linkdin"/>
+                        <img src={ youtube } alt ="youtube"/>
+                    </div> 
+                    <li className='get direction'>
+                        <img src={location} alt="location" className='location'/>Get direction of office </li>
+                    <li><img src={post} alt="post icon" className='post icon'/> hr@qitsolution.co.in</li>
+                    <li><img src={post} alt="post icon" className='post icon'/> keyur@qitsolution.co.in</li>
                 </ul>
             </div>
             <div className='col ft2'>
