@@ -23,7 +23,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
-/* Footer Css */
+
+/* Footer CSS */
 .ft {
   padding: 20px 0;
 }
@@ -45,23 +46,84 @@ ul li {
   margin-bottom: 10px;
 }
 
-.ft.tag { 
-  text-align: center; 
+.ft.tag {
+  text-align: center;
 }
+
 .connect.icons img {
   margin-right: 20px;
 }
+
 .ft .col ul h3 {
   margin-bottom: 50px;
 }
+
 li.get.direction {
   margin-top: 20px;
 }
+
 .ft .col ul li img {
   width: 13px;
   height: 10px;
   margin-right: 5px;
 }
+
 .ft .col ul li.get-direction {
+  margin-top: 20px;
+}
+
+.col.ft2 {
+  width: auto;
+}
+
+.col.ft1 {
+  padding-left: 100px;
+}
+
+.ft .col ul li h3 {
+  margin-bottom: 0;
+}
+.footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ft.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: calc(25% - 20px);
+  margin: 0 10px;
+  text-align: left;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  .connect.icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.copyright {
   margin-top: 20px;
 }
