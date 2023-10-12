@@ -23,3 +23,28 @@
   border-radius: 5px;
   cursor: pointer;
 }
+/* Footer Css */
+.ft {
+  padding: 20px 0;
+}
+
+.col {
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.ft.tag { 
+  text-align: center; 
+}
